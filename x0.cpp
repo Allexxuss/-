@@ -34,11 +34,11 @@ void main()
 					   cout<<(char)195;
 				   else if(y==0&&x%2==0)
 					   cout<<(char)194;
-				   else if(y==6&&x%==0)
+				   else if(y==6&&x%2==0)
 					   cout<<(char)193;
 				   else if(y%2==0&&x==6)
 					   cout<<(char)180;
-				   else if(y%2==0&&x%2=0)
+				   else if(y%2==0&&x%2==0)
 					   cout<<(char)197;
 				   else if(x%2==0)
 					   cout<<(char)179;
@@ -56,9 +56,9 @@ void main()
 		   }
 		   SetConsoleCursorPosition(hout,cord);
 		   
-		   int a=getch();
+		   int a=_getch();
 		    if(a=224)
-				a=getch();
+				a=_getch();
 			if(a==75&&cord.X>2)
 				cord.X-=2;
 			else if(a==77&cord.X<5)
